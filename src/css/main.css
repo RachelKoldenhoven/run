@@ -1,1 +1,44 @@
 /* add custom styles */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/winter_short.jpg");
+    height: 25%;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 2.5em;
+}
+
+main {
+    background-color: #073B4C;
+    height:70%;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+}
+
+article {
+    width: 35%;
+    height:20%;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    margin:5%;
+    display: inline-block;
+    color: #118AB2;
+}
